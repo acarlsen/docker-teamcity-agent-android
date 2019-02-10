@@ -34,8 +34,6 @@ RUN sdkmanager "platform-tools" --verbose && \
     sdkmanager "build-tools;${VERSION_BUILD_TOOLS}" --verbose && \
     sdkmanager "extras;android;m2repository" --verbose && \
     sdkmanager "extras;google;m2repository" --verbose && \
-    sdkmanager "extras;google;google_play_services" --verbose && \
-    sdkmanager "extras;google;play_billing" --verbose && \
-    sdkmanager "extras;google;instantapps" --verbose && \
+    sdkmanager "extras;google;google_play_services" --verbose && \   
     sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout;1.0.2" --verbose && \
     sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout;1.0.1" --verbose
